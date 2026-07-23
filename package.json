@@ -1,0 +1,31 @@
+{
+  "name": "nearloop-expo-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "latest",
+    "@react-native-async-storage/async-storage": "latest",
+    "@react-navigation/bottom-tabs": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "@supabase/supabase-js": "latest",
+    "base64-arraybuffer": "latest",
+    "expo": "~57.0.1",
+    "expo-image-picker": "latest",
+    "expo-status-bar": "latest",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-gesture-handler": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-url-polyfill": "latest"
+  },
+  "devDependencies": {}
+}
