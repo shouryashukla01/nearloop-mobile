@@ -1,0 +1,28 @@
+name: Build NearLoop
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_android_preview:
+    name: Build Android APK
+    type: build
+    params:
+      platform: android
+      profile: preview
+
+  build_android_store:
+    name: Build Android Store AAB
+    type: build
+    params:
+      platform: android
+      profile: production
+
+  build_ios_store:
+    name: Build iOS Store IPA
+    type: build
+    params:
+      platform: ios
+      profile: production
