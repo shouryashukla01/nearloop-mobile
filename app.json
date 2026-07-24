@@ -27,5 +27,10 @@
     "plugins": [
       "expo-image-picker"
     ]
+    "extra": {
+  "eas": {
+    "projectId": "b9c2a7f8-1eaa-415f-862f-dd906af7823a"
+  }
+}
   }
 }
