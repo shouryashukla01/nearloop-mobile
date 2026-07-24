@@ -4,7 +4,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createClient, processLock } from "@supabase/supabase-js";
 
 const fallbackUrl = "https://fvtlkspegtzzaoynrumd.supabase.co";
-const fallbackKey = "PASTE_SUPABASE_PUBLISHABLE_KEY_HERE";
+const fallbackKey = "sb_publishable_o5yAaWtGaSnKx6pL4lWKZQ_8xhsvtF5";
 
 const rawSupabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL || fallbackUrl;
 const supabaseUrl = normalizeSupabaseUrl(rawSupabaseUrl);
