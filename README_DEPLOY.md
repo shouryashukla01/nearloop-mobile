@@ -104,9 +104,16 @@ create policy "Creators delete events" on public.events
 for delete using (auth.uid() = created_by);
 ```
 
-Make sure realtime has messages enabled:
+Make sure realtime has events and messages enabled:
 
 ```sql
+do $$
+begin
+  alter publication supabase_realtime add table public.events;
+exception
+  when duplicate_object then null;
+end $$;
+
 do $$
 begin
   alter publication supabase_realtime add table public.messages;
