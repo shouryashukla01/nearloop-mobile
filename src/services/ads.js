@@ -4,10 +4,10 @@ import mobileAds, { AdEventType, AppOpenAd, InterstitialAd, TestIds } from "reac
 const USE_TEST_ADS = true;
 
 const productionAdUnits = {
-  androidAppOpen: "PASTE_ANDROID_APP_OPEN_AD_UNIT_ID",
-  iosAppOpen: "PASTE_IOS_APP_OPEN_AD_UNIT_ID",
-  androidEventCreatedInterstitial: "PASTE_ANDROID_INTERSTITIAL_AD_UNIT_ID",
-  iosEventCreatedInterstitial: "PASTE_IOS_INTERSTITIAL_AD_UNIT_ID"
+  androidAppOpen: "ca-app-pub-8302015651143248/1808148482",
+  iosAppOpen: "ca-app-pub-8302015651143248/9730870538",
+  androidEventCreatedInterstitial: "ca-app-pub-8302015651143248/6862264697",
+  iosEventCreatedInterstitial: "ca-app-pub-8302015651143248/7867124520"
 };
 
 let initializePromise;
