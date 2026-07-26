@@ -32,8 +32,8 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
-          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "androidAppId": "ca-app-pub-8302015651143248~2351073964",
+          "iosAppId": "ca-app-pub-8302015651143248~3189512912",
           "userTrackingUsageDescription": "This identifier will be used to deliver relevant ads inside NearLoop."
         }
       ]
