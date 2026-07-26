@@ -1,0 +1,17 @@
+Upload your logo images here with these exact filenames:
+
+1. icon.png
+   - App icon.
+   - Recommended size: 1024 x 1024 px.
+   - PNG, square, no transparency if possible.
+
+2. adaptive-icon.png
+   - Android adaptive icon foreground.
+   - Recommended size: 1024 x 1024 px.
+   - Keep the logo centered with padding around it.
+
+3. splash.png
+   - Splash screen logo.
+   - Recommended size: 1242 x 2436 px, or a centered logo on transparent/solid background.
+
+After uploading these files to the assets folder, rebuild the app once in EAS.
