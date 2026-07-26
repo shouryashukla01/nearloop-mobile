@@ -1,7 +1,7 @@
 import { Platform } from "react-native";
 import mobileAds, { AdEventType, AppOpenAd, InterstitialAd, TestIds } from "react-native-google-mobile-ads";
 
-const USE_TEST_ADS = false;
+const USE_TEST_ADS = true;
 
 const productionAdUnits = {
   androidAppOpen: "ca-app-pub-8302015651143248/1808148482",
